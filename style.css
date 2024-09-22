@@ -1,0 +1,214 @@
+ *{
+    padding: 0;
+    margin: 0;
+} 
+body{
+    /* background-color: rgb(0, 0, 0); */
+    /* background-color: rgba(76, 76, 76); */
+    background-color: rgb(228, 228, 228);
+    
+    /* animation: 1.5s linear infinite dayMode; */
+}
+
+.titbar{
+    display:flex;
+    justify-content: center;
+    background: rgba(228, 228, 228, 0.1);
+    backdrop-filter: blur(5px);
+    /* background:radial-gradient(black,grey,white); */
+    box-shadow: 1px 0px 10px 0px rgb(187, 187, 187);
+    position: fixed;
+    width: 100vw;
+    right: 0px;
+    top: 0px;
+    padding: 15px;
+    z-index: 5;
+    
+}
+.heading{
+    font-size: 50px;
+    font-family: "Space Grotesk";
+    color: rgb(1, 66, 124);
+    /* background-color:#3b3b3b; */
+    font-weight: 1000;
+}
+
+#datetime {
+    display: inline-block;
+    font-family: "Space Grotesk";
+    font-size: 20px;
+    color: #333;
+    position:fixed;
+    top: 35px;
+    left:1250px; 
+    z-index: 10;
+    
+}
+.dolist{
+    margin-top: 50px;
+    margin-left: 20px;
+    z-index: 0;
+}
+.mainlist{
+    padding-top: 60px;
+    padding-left: 30px;
+    display:inline-block;
+    list-style-type: none;
+}
+.mainlistI{
+    font-family: "Space Grotesk";
+    width:fit-content;
+    color: #1f1f1f;
+    font-size: 30px;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: rgb(81, 220, 255);
+    margin: 10px;
+}
+.mainlistI:hover{
+    box-shadow: 3px 3px 3px 3px rgb(156, 156, 156);
+}
+.listCheck{
+    height: 20px;
+    width: 20px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.DTlist{
+    display:inline-flex;
+    list-style-type: none;
+    justify-content:center;
+}
+.DTlistI{
+    font-family: "Space Grotesk";
+    color: #3b3b3b;
+    padding:5px;
+    font-size: 18px;
+    margin-left: 32px;
+    margin-top: 7px;
+    border-radius:28px ;
+    background-color: rgb(158, 236, 255);
+}
+.DTlistdiv{
+    display: flex;
+    justify-content:start;
+}
+.addbtn{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid;
+    background-color: rgb(131, 252, 83);
+    cursor: pointer;
+    z-index: 0;
+    position: fixed;
+    left: 60vw;
+    bottom: 60vh;
+    box-shadow: 3px 3px 3px 3px rgb(104, 104, 104);
+}
+.removebtn{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid;
+    background-color:rgb(254, 83, 83) ;
+    cursor: pointer;
+    z-index: 0;
+    position: fixed;
+    left: 80vw;
+    bottom: 60vh;
+    box-shadow: 3px 3px 3px 3px rgb(104, 104, 104);
+    
+}
+.addbtn:hover{
+    box-shadow: 1px 1px 1px 1px rgb(104, 104, 104);
+}
+.removebtn:hover{
+    box-shadow: 1px 1px 1px 1px rgb(104, 104, 104);
+}
+
+.ball{
+    width: 80px;
+    height: 80px;
+    /* background:linear-gradient(orange,red); */
+    position: fixed;
+    background:radial-gradient(red 20%, orange, yellow);
+    bottom: 654px;
+    left: 62px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.585) ; 
+    opacity: 100%;
+    z-index: 10;
+
+}
+/* .moon{
+    width: 80px;
+    height: 80px;
+    position:fixed;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius:50%;
+    box-shadow: -30px 0 0 0 rgb(188, 188, 188);
+    bottom:654px;
+    left: 90px;
+    z-index: 10;
+} */
+/* @keyframes moon {
+    from{opacity:100%;}
+    to{opacity: 0%;}
+} */
+/* @keyframes hulk {
+    from {opacity: 0%; }
+    to {opacity:100%;}
+}   */
+/* @keyframes dayMode {
+    from {background-color: #060606;}
+    to {background:radial-gradient(); background-color: rgb(255, 253, 247);}
+} */
+
+/* .ball{
+    animation: 3s ease-in-out infinite hulk;
+}
+.moon{
+    animation: 3s ease-in-out infinite moon;
+} */
+
+/*  .jordan{
+    opacity:65%;
+    position:relative;
+    bottom:1000px;
+    left:600px;
+    z-index: -5;
+    width: 300px;
+    height:80vh;
+} 
+img{
+    height: 80vh;
+} */
+
+#name{
+    width: 100px;
+    cursor: text;
+}
+
+#date{
+    width: 100px;
+}
+
+#time{
+    width: 100px;
+}
+button{
+    cursor: pointer;
+}
+.addBox{
+    position: fixed;
+    bottom: 500px;
+    left: 800px;
+}
+
+#modeChanger{
+    position: fixed;
+    width: 50px;
+    top:100px;
+    left: 500px;
+}
