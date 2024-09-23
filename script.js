@@ -24,5 +24,8 @@ function newTask(){
                             <li class="DTlistI">${c.value}</li>
                         </ul>
                     </div>
+                    <div class="rembutton">
+                        <button type="submit" onclick="removeTask()">Remove</button>
+                    </div>
                 </li>`)
 }
