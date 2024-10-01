@@ -88,11 +88,11 @@
 
 
         <div class="addBox">
-            <h2>Add</h2>
-            <div><label for="name">Name</label><input type="text" id="name"></div>
-            <div><label for="date">Date</label><input type="date" id="date"></div>
-            <div><label for="time">Time</label><input type="time" id="time"></div>
-            <div><button type="submit" onclick="newTask()">Add</button></div>
+            <div class="addBoxHeading"><h2>Add</h2></div>
+            <div class="addInputDivs"><label for="name"></label><input class="addInput" type="text" id="name" placeholder="Enter Task name"></div>
+            <div class="addInputDivs"><label for="date"></label><input class="addInput" type="date" id="date" placeholder="Enter last date"></div>
+            <div class="addInputDivs"><label for="time"></label><input class="addInput" type="time" id="time" placeholder="Enter time"></div>
+            <div class="addInputDivs" id="addButton"><button type="submit" onclick="newTask()">Add</button></div>
         </div>
 
 
